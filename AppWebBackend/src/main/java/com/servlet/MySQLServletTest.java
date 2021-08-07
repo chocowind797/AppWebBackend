@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+// 連接 mysql
 @WebServlet(urlPatterns = "/servlet/mysqltest")
 public class MySQLServletTest extends HttpServlet {
 	@Override
